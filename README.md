@@ -4,6 +4,8 @@ Friday A.I is a Python-based voice assistant that can listen to your voice comma
 
 This project is ideal for beginners in Python, AI, and voice-based applications, especially students working on mini-projects or learning automation.
 
+
+
 ✨**Features**
 
   🎤 Voice input using microphone
@@ -19,6 +21,9 @@ This project is ideal for beginners in Python, AI, and voice-based applications,
   📷 Capture photos using webcam
   
   🧠 Simple command-processing logic
+
+
+
   
 🛠️ **Technologies & Libraries Used**
   
@@ -30,6 +35,8 @@ This project is ideal for beginners in Python, AI, and voice-based applications,
     datetime – Time handling
     os – System commands
 
+
+
 📁 **Project Structure**
 Friday-AI/
 │
@@ -37,14 +44,19 @@ Friday-AI/
 ├── README.md          # Project documentation
 └── requirements.txt   # Required libraries (recommended)
 
+
+
 ⚙️**Installation & Setup**
     1️⃣ Clone the Repository
     git clone https://github.com/your-username/Friday-AI.git
     cd Friday-AI
+
+
     
     2️⃣ Install Required Libraries
     pip install pywin32 SpeechRecognition pygame pyaudio
     
+
 
 ⚠️**Note:**
 
@@ -53,6 +65,8 @@ Friday-AI/
   Make sure your microphone and webcam are working properly.
   
   For pyaudio, you may need a precompiled wheel on Windows.
+
+
 
 ▶️ **How to Run**
   python friday.py
@@ -65,7 +79,10 @@ Friday-AI/
   
   Listen continuously for voice commands
 
-🗣️ **Supported Voice Commands**
+
+
+🗣️ **Supported Voice Commands**:
+
     **Command	Action**
       "What's the time"	Speaks current time
       "Open the site google"	Opens google.com
@@ -73,10 +90,12 @@ Friday-AI/
       "Take a photo"	Captures webcam image
       "Goodbye"	Ends interaction
       
+      
     **📸Webcam Feature**
       Uses your default camera
       Saves image with the name you speak
       Resolution: 640 × 480
+
   
     **🚧 Known Limitations**
   
@@ -84,6 +103,7 @@ Friday-AI/
       No error handling for background noise
       Camera filename bug needs minor fix
       Limited command vocabulary
+
   
   **🔮 Future Improvements**
   
